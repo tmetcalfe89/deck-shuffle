@@ -1,6 +1,6 @@
 import { getResponseData } from "/script/util.js";
 
-(function () {
+(async function () {
   const theBigButton = document.querySelector("#thebigbutton");
   const populateMeCaptain = document.querySelector("#populatemecaptain");
   const cardTemplate = document.querySelector("#cardtemplate");

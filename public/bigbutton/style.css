@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  width: calc(100% / 13);
+}
+
+.card-image {
+  width: 100%;
+}
+
+#thebigbutton {
+  flex-grow: 1;
+}
+
+body > * {
+  width: 100%;
+}

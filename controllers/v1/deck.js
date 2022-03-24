@@ -88,7 +88,7 @@ const shuffleDeck = (req, res, next) => {
 
   while (clonedDeck.length > 0) {
     shuffledDeck.push(
-      clonedDeck.splice(Math.floor(Math.random() * clonedDeck.length), 1)
+      ...clonedDeck.splice(Math.floor(Math.random() * clonedDeck.length), 1)
     );
   }
 

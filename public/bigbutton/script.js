@@ -46,5 +46,7 @@ import { getResponseData } from "/script/util.js";
     theBigButton.disabled = false;
   });
 
+  theBigButton.disabled = true;
   renderNewDeck();
+  theBigButton.disabled = false;
 })();

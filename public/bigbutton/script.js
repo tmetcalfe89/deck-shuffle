@@ -40,8 +40,10 @@ import { getResponseData } from "/script/util.js";
     });
   };
 
-  theBigButton.addEventListener("click", () => {
-    renderNewDeck();
+  theBigButton.addEventListener("click", async () => {
+    theBigButton.disabled = true;
+    await renderNewDeck();
+    theBigButton.disabled = false;
   });
 
   renderNewDeck();

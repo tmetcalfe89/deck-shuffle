@@ -1,0 +1,15 @@
+{
+  "name": "deck-shuffle",
+  "version": "1.0.0",
+  "description": "An API that provides a deck of shuffled cards.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Timothy Metcalfe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

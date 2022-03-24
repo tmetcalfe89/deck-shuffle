@@ -67,7 +67,7 @@ const values = [
     value: 2,
   },
   {
-    name: "Ace",
+    name: "ace",
     value: 1,
   },
 ];
